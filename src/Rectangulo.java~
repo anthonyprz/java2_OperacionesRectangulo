@@ -1,0 +1,44 @@
+import java.lang.Math;
+
+public class Rectangulo {
+
+//	public double altura;
+//	public double base;
+//	public double perimetro;
+//	public double area;
+
+  	    int area_rectangulo = 0;
+	    int base = 10;
+	    int altura = 20; 
+	
+
+	public double getAltura (double altura)   {
+
+		double result = 0;
+		int Altura = 20;
+        	return 20;
+		
+	} 
+
+	public double getBase (double base)   {
+
+		double result = 0;
+		int Base = 10;
+        	return result;
+		
+	}
+	public double getPerimetro (double perimetro)   {
+
+
+		double Perimetro = 2*(perimetro*3.14); 
+        	return Perimetro;
+
+		} 
+	public double getArea (double area)   {
+
+		double Area = base*altura;
+        	return Area;
+		
+	} 
+	
+}
