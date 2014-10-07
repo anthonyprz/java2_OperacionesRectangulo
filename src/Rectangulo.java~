@@ -7,37 +7,43 @@ public class Rectangulo {
 //	public double perimetro;
 //	public double area;
 
-  	    int area_rectangulo = 0;
-	    int base = 10;
-	    int altura = 20; 
+  	   
+	    private double base = 0;
+	    private double altura = 0; 
 	
 
-	public double getAltura (double altura)   {
+ 	public void setAltura (double alt) {
+		this.altura = alt;
+	}
+	
+	public void setBase (double bas) {
+		this.base = bas;
+	}
 
-		double result = 0;
-		int Altura = 20;
-        	return 20;
+	public double getAltura ()   {
+
+		
+        	return this.altura;
 		
 	} 
 
-	public double getBase (double base)   {
+	public double getBase ()   {
 
-		double result = 0;
-		int Base = 10;
-        	return result;
+		
+        	return this.base;
 		
 	}
-	public double getPerimetro (double perimetro)   {
+	public double perimetro ()   {
 
 
-		double Perimetro = 2*(perimetro*3.14); 
-        	return Perimetro;
+		double perimetro = 2*(base+altura); 
+        	return perimetro;
 
 		} 
-	public double getArea (double area)   {
+	public double area ()   {
 
-		double Area = base*altura;
-        	return Area;
+		double area = base*altura;
+        	return area;
 		
 	} 
 	

@@ -11,6 +11,18 @@ public class Rectangulo {
 	    private double base = 0;
 	    private double altura = 0; 
 	
+// constructor por parametro
+
+
+	public Rectangulo (double alt, double bas){
+
+	this.altura = alt;
+	this.base = bas;
+
+
+
+}
+
 
  	public void setAltura (double alt) {
 		this.altura = alt;

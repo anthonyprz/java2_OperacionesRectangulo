@@ -6,18 +6,20 @@ public class OperacionesRectangulo {
 
 		double  altura, base, perimetro, area;
 		
-		Rectangulo operaciones = new Rectangulo();
+// antes		Rectangulo operaciones = new Rectangulo();
 	 
 		Scanner sc = new Scanner(System.in);
 		System.out.print("\ningresar la altura del rectángulo: ");
 		altura = sc.nextDouble();
-		operaciones.setAltura(altura);
+//		operaciones.setAltura(altura);
 		
 		
 		System.out.print("\ningresar la base del rectángulo: ");
 		base = sc.nextDouble();
-		operaciones.setBase(base);
+//		operaciones.setBase(base);
 
+// llamar constructor		
+		Rectangulo operaciones = new Rectangulo(base, altura);
 
 		System.out.println("\neste es el perimetro de un rectangulo: " + operaciones.perimetro());
 
